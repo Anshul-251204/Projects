@@ -59,6 +59,10 @@ document.querySelector(".bubble-section").addEventListener("click" , function(de
     }
 })
 
+document.querySelector("#ref").addEventListener("click" , function(){
+    makeBubble();
+})
+
 
 // makeBubble();
 setTimer();
